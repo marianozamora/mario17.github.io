@@ -6,22 +6,39 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+  font-family: "Simplifica";
+  src: url("../fonts/simplifica.ttf");
+   }
+@font-face {
+  font-family: "Pacifico-b";
+  src: url("../fonts/Pacifico-Bold.ttf");
+  font-weight: 200; }
+@font-face {
+font-family: "Pacifico-l";
+src: url("../fonts/Pacifico-Light.ttf");
+font-weight: 200; }
+@font-face {
+font-family: "Pacifico";
+src: url("../fonts/Pacifico-Regular.ttf");
+font-weight: 200; }
+
 .icon-block {
   padding: 0 15px;
 }
 
-.dark-primary-color    { background: #00796B; }
-.default-primary-color { background: #00796B; }
+.dark-primary-color    { background: white; }
+.default-primary-color { background: white; }
 .light-primary-color   { background: #2196f3; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #e23237; }
+.accent-color          { background: #4C2E2F; }
 .accent-color-text     { color: #e23237; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
 .button-color		   { background: #1976d2;}
 
-.nav {background-color: #455A64 !important;}
+.nav {background-color: #4C2E2F !important;}
 
 .logo-large {
   display: block;
@@ -34,23 +51,33 @@
   margin: 0 auto;
   padding: 40px 0 0 0;
 }
-
-img.logo {
-  height: 70px;
-  width:  200px;
-  margin: 0;
-  padding: 0;
+.linea{
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h5.header.col.s12 {
+  font-size: 50px;
+  margin-top: 20px;
   padding-bottom: 30px;
-  margin-top: 0;
+  color:white;
+    line-height: 38px;
+  font-family: Simplifica;
+  text-transform: capitalize;
 }
-
+.filtro{
+  background-color: black;
+  width: 100%;
+}
 div#sub-header {
-	background: #00796B url(../images/img.jpg) no-repeat;
-	background-size:100%;
-  height:auto;
+	background: transparent url(../images/4.jpg) no-repeat;	
+  height:605px;
+  padding-top: 120px;
+}
 }
 
 .social-icons, .quick-bio {
@@ -135,27 +162,30 @@ ul#nav-mobile a {
 }
 
 ul#nav-mobile li:hover {
-  background-color: #eee;
+  background-color: white;
 }
 
 div.sidenav-header {
-  height: 80px;
+  height: 60px !important;
   width: 100%;
+  color: #4C2E2F;
+  text-align: center;
 }
 
 .sidenav-header {
-  color: peru;
+  color: #ee6e73;
+  text-align: center;
   font-size: 1.5em;
   display: inline-block;
   vertical-align: middle;
 }
 
 li.title {
-  background: #1976d2;
+  background: white;
 }
 
 ul#nav-mobile li.title:hover {
-  background: #1976d2;
+  background: white;
 }
 
 img.sidebar-logo {
@@ -242,6 +272,19 @@ pre {
 }
 
 /*  MEDIA QUERIES  */
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  .brand-logo{
+      position: absolute;
+  left: 52% !important;
+  top: 26px;
+  }
+  div#sub-header {
+  padding-top: 40px;
+}
+h1{
+  font-size: 50px;
+}
+}
 
 @media only screen and (max-width: 992px) {
 	img.logo {display: none;}

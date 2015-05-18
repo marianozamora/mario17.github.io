@@ -1985,7 +1985,7 @@ ul {
 .clearfix {
   clear: both; }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.side-nav {
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.side-nav {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
@@ -2169,7 +2169,7 @@ footer.page-footer {
     height: 50px;
     line-height: 50px;
     color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(51, 51, 51, 0.08); }
+    background-color: #4C2E2F }
 
 table, th, td {
   border: none; }
@@ -5056,7 +5056,7 @@ span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color:#4C2E2F;/**/
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -5085,6 +5085,7 @@ nav {
   nav .brand-logo {
     position: absolute;
     color: #fff;
+    top: -6px;
     display: inline-block;
     font-size: 2.1rem;
     padding: 0; }
@@ -5098,8 +5099,8 @@ nav {
       transform: translate(-50%, -50%); }
     @media only screen and (max-width : 992px) {
       nav .brand-logo {
-        top: 50%;
-        left: 50%;
+        top: 28px;
+        left: 33%;
         -webkit-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -5170,8 +5171,8 @@ nav {
 
 @media only screen and (min-width : 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 80px;
-    line-height: 80px; }
+    height: 60px;
+    line-height: 60px; }
 
   .navbar-fixed {
     height: 64px; }
@@ -5189,8 +5190,7 @@ nav {
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Regular.ttf");
-  font-weight: 400; }
+  src: url("../fonts/roboto/Roboto-Regular.ttf"); }
 
 @font-face {
   font-family: "Roboto";
@@ -5220,7 +5220,7 @@ html {
     html {
       font-size: 15px; } }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-weight: 400; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -6760,10 +6760,11 @@ ul.side-nav {
   height: 100%;
   height: calc(100% + 60px);
   padding-bottom: 60px;
-  background-color: #b7b7b7;
+  background-color: white;
+  color:black;
   z-index: 999;
   will-change: left;
-  border-right: 10px solid #eee; }
+  border-right: 5px solid #4C2E2F; }
   ul.side-nav.right-aligned {
     will-change: right;
     right: -105%;
@@ -6777,7 +6778,7 @@ ul.side-nav {
     ul.side-nav li:hover, ul.side-nav li.active {
       background-color: #ddd; }
   ul.side-nav a {
-    color: #fff; }
+    color: black; }
   ul.side-nav a:hover {
     color: #444; }
 .drag-target {
