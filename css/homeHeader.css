@@ -1,0 +1,151 @@
+
+.headerpe.shrinkpe{
+    position: fixed;
+    top: 0;
+    z-index: 10002;
+    width: 100%;
+    
+}
+
+.header.shrink {
+    background-color: white;
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+}
+
+.header.shrink .header_over .hh_nav .hn_navegador li a {
+            color: #464646; 
+        }
+.header.shrink2 .header_over .hh_nav .hn_navegador {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    color: white;
+    opacity: 0;
+
+}
+.header.shrink2 .header_over .hh_nav .hn_navegador:hover{
+    opacity: 1;
+    color: black;
+}
+
+.header .hn_navegador{
+ color: white;
+}
+.header.shrink a{
+    /*line-height:80px;*/
+    color: white;
+}
+
+.header .shrink .hs_registro {
+  font-family: ssp_semibold;
+  padding: 7px 15px;
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.header.shrink2 {
+    background-color: white;
+}
+.header.shrink2 a{
+    /*line-height:80px;*/
+   
+}
+
+
+.header h1
+{
+    font-size:17px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header.shrink h1
+{
+    font-size:24px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.content2
+{
+height:700px;
+width: 100%;
+ /*just to get the page to scroll*/
+}
+.header.shrink2 .header_home, .header_over {
+    padding-top: 0 !important;
+}
+
+.header .shrink2 .header_home .hh_nav .hn_logo .logo_flikn, .header_over .hh_nav .hn_logo .logo2flikn {
+ 
+    background-size: cover;
+    width: 105px;
+    height: 20px;
+    opacity: 1;
+
+}
+/*.header .shrink .bo_header .header_over .hh_nav .hn_logo .logo_flikn {}*/
+
+
+/*.header .shrink .header_home .hh_nav .hn_logo img, .header_over .hh_nav .hn_logo img {
+    background-image: url("../img/logo/black_logo.png") ;
+    width: 105px;
+    height: 20px;
+}*/
+.shrink .header_home .hh_nav .hn_navegador, .header_over .hh_nav .hn_navegador {
+        margin-top: 7px;
+}
+.shrink section nav ul li .hs_registro {
+    color : #4dd7d7 !important;
+    background-color: white;
+    font-family: sans-serif;
+    color: white;
+    padding: 7px 0px;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+}
+.shrink section nav ul li .hs_registro:hover{
+    color: white !important;
+    background-color: #4dd7d7!important;
+}
+.shrink .hh_signup .hs_enter .id_login-header {
+    font-size:15.15px;
+    color:#464646 !important;
+}
+
+.shrink2 section nav ul li .hs_registro {
+    position: relative;
+    top: -8px;
+    color : #4dd7d7 !important;
+    background-color: white;
+    font-family: sans-serif;
+    color: white;
+    font-weight:bold;
+    border-radius: 4px;
+    font-size: 15px;
+    -webkit-transition: color 200ms ease-in-out, 
+    background-color 200ms ease-in-out, 
+    opacity 200ms ease-in-out, 
+    border-color 200ms ease-in-out, 
+    padding 200ms ease-in-out;
+    transition: color 200ms ease-in-out, 
+    background-color 200ms ease-in-out,
+    opacity 200ms ease-in-out,
+    border-color 200ms ease-in-out,
+    padding 200ms ease-in-out;
+    border-radius: 5px;
+    border: 2px solid #4dd7d7;
+    color: #5fcf80;
+    padding: 7px 15px;
+}
+.shrink .hh_signup .hs_registro:hover{
+    background-color: white;
+}
+.shrink2 .hh_signup .hs_registro:hover{
+    background-color: #0099ff;
+    color:white !important;
+}

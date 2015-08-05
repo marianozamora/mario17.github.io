@@ -7,6 +7,10 @@
  */
 
 @font-face {
+  font-family: "Uncial";
+  src: url("../fonts/UncialAntiqua-Regular.otf");
+   }
+@font-face {
   font-family: "Simplifica";
   src: url("../fonts/simplifica.ttf");
    }
@@ -31,14 +35,14 @@ font-weight: 200; }
 .default-primary-color { background: white; }
 .light-primary-color   { background: #2196f3; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #4C2E2F; }
+.accent-color          { background: #222; }
 .accent-color-text     { color: #e23237; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
 .button-color		   { background: #1976d2;}
 
-.nav {background-color: #4C2E2F !important;}
+.nav {background-color: #222 !important;}
 
 .logo-large {
   display: block;
@@ -74,9 +78,11 @@ h5.header.col.s12 {
   width: 100%;
 }
 div#sub-header {
-	background: transparent url(../images/4.jpg) no-repeat;	
-  height:605px;
-  padding-top: 120px;
+  width:100%;
+  background-color: black;
+    height: 600%;
+ /* height:605px;
+  padding-top: 120px;*/
 }
 }
 
@@ -166,9 +172,9 @@ ul#nav-mobile li:hover {
 }
 
 div.sidenav-header {
-  height: 60px !important;
+  height: 50px !important;
   width: 100%;
-  color: #4C2E2F;
+  color: #222;
   text-align: center;
 }
 
@@ -279,7 +285,7 @@ pre {
   top: 26px;
   }
   div#sub-header {
-  padding-top: 40px;
+  /*padding-top: 40px;*/
 }
 h1{
   font-size: 50px;
@@ -288,7 +294,7 @@ h1{
 
 @media only screen and (max-width: 992px) {
 	img.logo {display: none;}
-	.quick-bio {padding-top: 40px;}
+	.quick-bio {padding-top: 0px;}
 }
 
 @media only screen and (min-width: 993px) {
